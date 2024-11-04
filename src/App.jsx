@@ -20,7 +20,7 @@ function DataTimePretty (props){
             return `${difference} дней назад`;
         }
     }
-    return <DateTime  date={makeNewDate(props.data)} /> ;
+    return <DateTime  date={makeNewDate(props.date)} /> ;
 } 
 
 
